@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'app-scol';
+export class AppComponent implements OnInit {
+  currentDate: Date = new Date(); 
+
+  constructor() {}
+
+  ngOnInit() {
+    
+  }
+
 }

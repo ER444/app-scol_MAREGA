@@ -1,0 +1,16 @@
+<div class="specialite-container">
+    <img src="assets/specialite.jpeg" id="spec" alt="Image Spécialité">
+    <h2>Liste des spécialités</h2>
+    <table class="specialite-table">
+      <thead>
+        <tr>
+          <th>Nom de la spécialité</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let specialite of specialites">
+          <td>{{ specialite.nom }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

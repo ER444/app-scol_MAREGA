@@ -1,0 +1,43 @@
+
+.specialite-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  #spec {
+    width: 25%; 
+    
+    margin-bottom: 20px; 
+  }
+  
+  .specialite-container h2 {
+    margin-bottom: 10px; 
+  }
+  
+
+  .specialite-table {
+    width: 50%; 
+    border-collapse: collapse; 
+  }
+  
+ 
+  .specialite-table th {
+    background-color: #f2f2f2;
+    padding: 8px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  
+  .specialite-table td {
+    padding: 8px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+ 
+  .specialite-table tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
+  

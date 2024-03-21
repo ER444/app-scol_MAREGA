@@ -1,0 +1,16 @@
+.form-inline {
+    width: auto;
+  }
+.navbar {
+    background-color: #000000;
+  }
+  
+ 
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; 
+  }
+
+  a{
+    color: #ffffff;
+  }
+  
